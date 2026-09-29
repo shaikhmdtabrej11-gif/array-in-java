@@ -1,0 +1,88 @@
+public class array {
+    public static void main(String[] args) {
+//multi demensional array
+// int[][] marks = new int [3][3];
+// marks[0][0] = 23;
+// marks[0][1] = 25;
+// marks[0][2] = 45;
+
+// marks[1][0] = 42;
+// marks[1][1] = 27;
+// marks[1][2] = 49;
+
+// marks[2][0] = 28;
+// marks[2][1] = 29;
+// marks[2][2] = 41;
+
+
+// for(int row = 0; row < 3; row++){
+//     for(int col = 0; col < 3; col++){
+//         System.out.println(marks[row][col] + "");
+//     }
+//     System.out.println();
+// }
+
+/*int[][] marks = new int [3][];
+marks[0] = new int[1];
+marks[1] = new int[2];
+marks[2] = new int[3];
+
+marks[0][0] = 27;
+
+marks[1][0] = 28;
+marks[1][1] = 29;
+
+marks[2][0] = 21;
+marks[2][1] = 22;
+marks[2][2] = 23;
+
+for(int row = 0; row < marks.length; row++){
+    for(int col = 0; col < marks[row].length; col++){
+        System.out.print(marks[row][col] + "");
+    }
+     System.out.println();
+}
+//2d array
+ int [][] marks = {
+     {23,53,65},
+    {46,75,97},
+     {64,78,47}
+ };
+ for(int row = 0; row < marks.length; row++){
+     for(int col = 0; col < marks[row].length; col++){
+     System.out.print(marks[row][col] + " ");
+    }
+    System.out.println();
+ }
+// string
+ String firstName = "tabrej";
+String lasrName = "zaid";
+ String fullName = firstName + " " + lastName;
+ System.out.println(fullName);
+System.out.println()
+
+// function overloading
+
+ int x = sum(a:2, b: 3);
+ System.out.println(x);
+ int y 
+ static int sum(int a, int b);
+ return (a + b);
+
+
+ int[] numbers = {10,20,30,40,50};
+ System.out.println(numbers[0]);
+ System.out.println(numbers[1]);
+ System.out.println(numbers[2]);
+ System.out.println(numbers[3]);
+ System.out.println(numbers[4]);
+
+// declare array and give size
+ int[] numbers = new int[5];
+ numbers[0] = 10;
+ numbers[1] = 20;
+ numbers[2] = 30;
+ numbers[3] = 40;
+ numbers[4] = 50;
+
+// System.out.println(numbers[4]);

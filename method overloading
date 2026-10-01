@@ -1,0 +1,48 @@
+class Main {
+
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    static double add(double a, double b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(add(10, 20));
+        System.out.println(add(10, 20, 30));
+        System.out.println(add(10.5, 20.5));
+    }
+}
+//calculator function
+class Main {
+
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static int subtract(int a, int b) {
+        return a - b;
+    }
+
+    static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    static int divide(int a, int b) {
+        return a / b;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(add(20, 10));
+        System.out.println(subtract(20, 10));
+        System.out.println(multiply(20, 10));
+        System.out.println(divide(20, 10));
+    }
+}
